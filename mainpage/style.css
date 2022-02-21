@@ -59,8 +59,13 @@ a:hover {
 
 /* ======= body ========== */
 
+.mainbody {
+  background: linear-gradient(180deg, #f2ead3 28%, #f5991a 100%);
+}
+
+
 .first_section {
-  background-color: #f2ead3;
+  /* background-color: #f2ead3; */
   padding: 20px 0;
 }
 
@@ -102,7 +107,7 @@ a:hover {
 
 
 .second_section {
-  background-color: #f5991a;
+  /* background-color: #f5991a; */
 }
 
 .headOfSection {
