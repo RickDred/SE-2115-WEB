@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+}
+*{
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+
+/* =========== Header ========== */
+
+header {
+  background: #8c8c8c;
+}
+
+.header_inside {
+  padding: 25px 0;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_menu {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.header_menu_link {
+  padding-left: 40px;
+  text-decoration: none;
+  color: black;
+  opacity: .75;
+
+  transition: opacity .1s linear;
+}
+
+.header_menu_link:hover {
+  opacity: 1;
+}
+
+/* ======= first ========== */
+
+.first {
+  margin-top: -25px;
+  height: 650px;
+  background: #fff url("images\\Pirozhki2.jpg") center no-repeat;
+  padding: 110px 30%;
+}
+
+.title_back {
+  background: #db8a5e;
+  opacity: .75;
+  border-radius: 20px;
+  padding: 70px 0;
+}
+
+.title {
+  font-size: 28px;
+  opacity: .95;
+  display: flex;
+  word-wrap: normal;
+  align-items: center;
+  justify-content: center;
+}
+
+.zayebaletotborder {
+  padding: 0 30%;
+}
+
+.shop_btn_link {
+  text-decoration: none;
+  color: white;
+}
+
+.shop_btn {
+  background: #ff5454;
+  opacity: .8;
+  margin-top: 50px;
+  padding: 21px;
+  border-radius: 35px;
+  display: flex;
+  text-transform: uppercase;
+  font-size: 24px;
+  align-items: center;
+  justify-content: center;
+
+  transform: opacity .1s linear;
+  transform: background .1s linear;
+}
+
+.shop_btn:hover {
+  opacity: 1;
+  background: #fc3a3a;
+}
+
+
+/* ======= product ========== */
+
+.section h1{
+  font-size: 6rem;
+  font-weight: 300;
+}
+
+.product{
+  display: flex;
+  flex-direction: row;
+  align-content: space-evenly;
+  justify-content: space-between;
+}
+
+.name{
+  font-size: 4rem;
+  font-weight: 350;
+}
+
+.description{
+  font-size: 2rem;
+  font-weight: 450;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+
+}
+/* ======= footer ========== */
+
+footer {
+  padding-top: 70px;
+  background: #eebdf0;
+  font-family: 'Raleway';
+}
+
+.footer_inside {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer_item {
+  color: black;
+  width: 31%;
+}
+
+.italic {
+  font-family: 'Arial';
+  font-style: italic;
+}
+
+
+.madeby {
+  margin-top: 50px;
+  font-size: 12px;
+  padding-bottom: 20px;
+  text-align: right;
+  font-style: italic;
+}

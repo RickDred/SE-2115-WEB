@@ -1,0 +1,284 @@
+
+*{
+  color: white;
+}
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+body{
+  transition: 2s;
+  background: rgb(245,235,235);
+  background: linear-gradient(180deg, rgba(83,80,80,1) 28%, rgba(25,25,25,1) 100%);
+  font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+#nbar{
+  background: rgb(68,73,73);
+  background: linear-gradient(14deg, rgba(68,73,73,1) 0%, rgba(244,81,30,1) 100%);
+}
+header {
+  padding: 15px 0;
+  text-transform: uppercase;
+
+}
+.nav-link{
+  font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: WhiteSmoke;
+}
+#icon_items{
+  display: flex;
+  justify-content: end;
+}
+#swapbtn{
+  color:red;
+}
+#head_items{
+  align-items: center;
+}
+* {
+  box-sizing: border-box;
+}
+.icontext{
+margin-top: auto;
+margin-bottom: auto;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: black;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px white;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.carousel-caption{
+  top:35%;
+}
+.how{
+  font-size: 80px;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+li{
+  padding: 9px;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+.begin {
+    font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+#for{
+  background: #f4511e;
+}
+.player-container {
+    max-width: 500px;
+    margin: 20px auto;
+}
+.change-audio {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 4px 0;
+    padding: 6px 10px;
+    border: 1px solid #ddd;
+    transition: all 300ms;
+    background: #FFF;
+}
+.change-audio:hover {
+    border: 1px solid #00b3ff
+}
+.change-audio.active {
+    background: #00b3ff;
+    color: #FFF;
+    border: 1px solid #00b3ff
+}
+.step1 {
+  font-size: 30px;
+  padding-top: 18%;
+  background-image: url(https://st.depositphotos.com/1016682/2450/i/600/depositphotos_24502465-stock-photo-white-brick-wall.jpg);
+}
+
+.step2 {
+  font-size: 30px;
+  padding-top: 5%;
+  background-image: url(https://st.depositphotos.com/1016682/2450/i/600/depositphotos_24502465-stock-photo-white-brick-wall.jpg);
+}
+
+.step3 {
+  font-size: 30px;
+  padding-top: 5%;
+  background-image: url(https://st.depositphotos.com/1016682/2450/i/600/depositphotos_24502465-stock-photo-white-brick-wall.jpg);
+}
+
+.step4 {
+  font-size: 30px;
+  padding-top: 5%;
+  background-image: url(https://st.depositphotos.com/1016682/2450/i/600/depositphotos_24502465-stock-photo-white-brick-wall.jpg);
+}
+
+.step5 {
+  font-size: 30px;
+  padding-top: 5%;
+  background-image: url(https://st.depositphotos.com/1016682/2450/i/600/depositphotos_24502465-stock-photo-white-brick-wall.jpg);
+}
+
+.step6 {
+  font-size: 30px;
+
+  background-image: url(https://st.depositphotos.com/1016682/2450/i/600/depositphotos_24502465-stock-photo-white-brick-wall.jpg);
+}
+
+li {
+    margin: 5 10px;
+  }
+h1 .stext{
+  font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+#comm{
+  background:gray;
+}
+.stepcon{
+  background: gray;
+}
+
+.footer_inside {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer_item {
+  color: white;
+  width: 31%;
+  margin-top: 20px;
+}
+
+hr{
+    clear:left;
+}
+td {
+   border: 5px solid yellow;
+   font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+   color: black;
+}
+.numb{
+  background: #f4511e;
+}
+.img{
+  height: auto;
+  width: auto;
+}
+.navbar-nav{
+  align:right;
+}
+
+#watchbtn{
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 15px;
+  width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#watchbtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#watchbtn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#watchbtn:hover span {
+  padding-right: 25px;
+}
+
+#watchbtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#vid{
+   text-decoration: none;
+   color: white;
+   font-family: Impact, fantasy;
+   font-size: 25px;
+  }
+footer {
+  padding-top: 30px;
+  background: rgb(232,245,240);
+  background: linear-gradient(238deg, rgba(232,245,240,1) 0%, rgba(50,13,13,1) 0%);
+  font-family: font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+.madeby {
+  margin-top: 30px;
+  font-size: 12px;
+  color: white;
+  padding-bottom: 20px;
+  text-align: right;
+  font-style: font-family: "Work Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}

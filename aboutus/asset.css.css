@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+
+    background: url("C:\\Users\\Rick\\Desktop\\Boilerplate\\aboutus\\b (1).jpg");
+
+    font-family: Arial;
+    line-height: 1.5;
+    font-size: 18px;
+    color: black;
+
+}
+
+.card {
+    width: 448px;
+    margin: 30px auto;
+    padding: 100px;
+
+    background-color: #fff;
+    box-shadow: 0 5px 10px #ccc;
+    border-radius: 10px;
+}
+
+.card-photo {
+    display: block;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+.card-titl {
+    font-size: 34px;
+    text-align: center;
+    color: #000;
+
+}
+
+.card-text {
+    font-size: 20px;
+    text-align: center;
+}
+
+.card-2 {
+    font-size: 22px;
+    text-align: center;
+
+}
+
+.card-3 {
+    font-size: 22px;
+}
+
+.card-4 {
+    font-size: 22px;
+}
+
+
+
+
+
+/* header ============================ */
+
+
+ul {
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+  }
+
+.container {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+  }
+
+header {
+    background: #8c8c8c;
+  }
+
+  .header_inside {
+    padding: 25px 0;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header_menu {
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
+  .header_menu_link {
+    padding-left: 40px;
+    text-decoration: none;
+    color: black;
+    opacity: .75;
+
+    transition: opacity .1s linear;
+  }
+
+  .header_menu_link:hover {
+    opacity: 1;
+  }

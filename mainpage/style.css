@@ -1,0 +1,169 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+}
+a { 
+  text-decoration: none;
+  color: black;
+}
+a:hover { 
+  text-decoration: none;
+  color: rgb(138, 148, 202);
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+@media (max-width:1200px) {
+  .container {max-width: 970;}
+}
+@media (max-width:992px) {
+  .container {max-width: 750;}
+}
+@media (max-width:767px) {
+  .container {max-width: none;}
+}
+.italic {
+  font-style: italic;
+}
+/* ======= header ========== */
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 70px;
+  padding-right: 15px;
+}
+
+.iconlogo img {
+  width: 100px;
+}
+
+.navbar {
+  background-color: #f9f6f1;
+}
+
+.nav-link {
+  font-size: 18px;
+}
+
+/* ======= body ========== */
+
+.first_section {
+  background-color: #f2ead3;
+  padding: 20px 0;
+}
+
+.alert {
+  padding: 25px;
+  border-radius: 25px;
+  text-align: center;
+  min-width: 250px;
+  max-width: 55%;
+  margin: auto;
+  border: 0;
+}
+
+.border {
+  display: flex;
+  border-radius: 15ch;
+  border: 0;
+  min-width: 70px;
+  width: 17%;
+  height: 3em;
+  margin: 0 auto;
+}
+
+.shop_btn {
+  margin-top: 5%;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+}
+
+.shop_btn:hover {
+  background-color: rgb(248, 207, 158);
+}
+
+.shop_btn_link {
+  text-transform: uppercase;
+}
+
+
+
+.second_section {
+  background-color: #f5991a;
+}
+
+.headOfSection {
+  padding: 25px 0;
+  text-align: center;
+}
+
+.features {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feat_item {
+  padding: 15px;
+  max-width: 30%;
+  min-width: 300px;
+  display: inline-block;
+  background-color: #f7c481;
+  border-radius: 3ch;
+  margin: 15px auto;
+}
+
+.feat_icon {
+  font-size: 70px;
+}
+
+/* ======= footer ========== */
+
+footer {
+  padding: 10px 0; 
+  background-color: #311313;
+  color: rgb(202, 202, 202);
+  font-weight: 500;
+}
+
+.footer_inside {
+  display: inline-block;
+  width: 100%;
+}
+
+.citation {
+  float: left;
+}
+
+.awesome {
+  float: right;
+  padding: 10px 25px 0 0;
+}
+
+.awesomelink {
+  color: rgb(202, 202, 202);
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.awesomelink:hover {
+  color:rgba(151, 170, 255, 0.808); 
+}
+
+.madeby {
+  font-size: 12px;
+  text-align: right;
+}
