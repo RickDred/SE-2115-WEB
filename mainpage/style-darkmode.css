@@ -57,27 +57,6 @@ a:hover {
   font-size: 18px;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.themes {
-  display: none;
-  position: absolute;
-  background-color: #dbd7d7;
-  min-width: 160px;
-}
-
-.themes a {
-  display: block;
-  padding: 12px 16px;
-}
-
-.show {
-  display: block;
-}
-
 /* ======= body ========== */
 
 .mainbody {
@@ -118,18 +97,9 @@ a:hover {
   transition: .5s;
 }
 
-.shop_btn::after {
-  content: ':)';
-  opacity: 0;
-  transition: .5s;
-}
-
 .shop_btn:hover {
   padding-right: 15px;
   background-color: rgb(248, 207, 158);
-}
-.shop_btn:hover::after {
-  opacity: 1;
 }
 
 .shop_btn_link {
