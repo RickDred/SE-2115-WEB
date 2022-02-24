@@ -1,3 +1,8 @@
+window.onload = function() {
+    sert
+}
+
+
 $("#firsttheme").mouseover(function() {
     $(this).css("background", "linear-gradient(180deg,#f9f6f1,#f2ead3,#f5991a,#311313)");
 });
@@ -18,6 +23,11 @@ document.getElementById("secondtheme").addEventListener('click', function() {
     document.getElementById("cssfile").setAttribute("href","darkstyle.css");
 });
 
+
+$(".dropdown-item").click(function() {
+    const audio = new Audio("sounds\\pop.mp3");
+    audio.play();
+});
 
 
 

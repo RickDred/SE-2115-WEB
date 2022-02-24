@@ -210,6 +210,12 @@ a:hover {
   fill:rgb(238, 227, 227);
 }
 
+
+/* music */
+.music {
+  text-align: center;
+}
+
 /* ======= footer ========== */
 
 footer {
