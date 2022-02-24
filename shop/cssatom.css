@@ -1,11 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i|Poppins:300,400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Forum');
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700,900|Josefin+Slab:100,100i,300,300i,400,400i,600,600i,700,700i|Marcellus|Nanum+Myeongjo:400,700,800|Old+Standard+TT:400,400i,700|Prata|Vidaloka');
+
 body {
-  margin: 0;
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
 }
-*{
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+::-webkit-scrollbar {
+  display: none !important;
+}
+
 ul {
   list-style: none;
 }
@@ -75,7 +89,7 @@ header {
   justify-content: center;
 }
 
-.zayebaletotborder {
+.etotborder {
   padding: 0 30%;
 }
 
@@ -142,9 +156,49 @@ header {
   margin-top: 10px;
 
 }
+/* ======= form ========== */
+.radio {
+  text-align: center;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.formbox {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 100px;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
 /* ======= footer ========== */
 
-footer {
+/* footer {
   padding-top: 70px;
   background: #eebdf0;
   font-family: 'Raleway';
@@ -172,4 +226,24 @@ footer {
   padding-bottom: 20px;
   text-align: right;
   font-style: italic;
+} */
+
+.music-block {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.music-block audio {
+  width: 50%;
+}
+
+.footer {
+  margin-bottom: 0 !important;
+}
+
+.footer button {
+  background-color: white;
+  color: black;
+  border: 1px solid rgba(105, 105, 105, 0.705);
 }

@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
-<head>
-  <meta charset="utf-8">
-  <link href="images\logotip.png" rel="icon" type="image/x-icon" />
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;1,100;1,700&family=Roboto:ital,wght@0,100;0,400;0,700;1,100&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="cssatom.css">
-  <title>Shop</title>
-</head>
-
+  <head>
+    <meta charset="utf-8">
+    <link href="images\logotip.png" rel="icon" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,400;1,100;1,700&family=Roboto:ital,wght@0,100;0,400;0,700;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="cssatom.css">
+    <title>Shop</title>
+  </head>
 <body>
-  <header>
+  <!-- <header>
     <div class="container">
       <div class="header_inside">
         <div class="header_icon">
@@ -18,51 +18,81 @@
         </div>
         <div class="header_menu">
           <ul>
-            <li><a href="../mainpage\first.html" class="header_menu_link">Main</a></li>
+            <li><a href="shop.html" class="header_menu_link">Main</a></li>
             <li><a href="shop.html" class="header_menu_link"><strong>Shop</strong></a></li>
-            <li><a href="../howcook\project.html" class="header_menu_link">Formula</a></li>
-            <li><a href="../aboutus\index.html" class="header_menu_link">About us</a></li>
+            <li><a href="shop.html" class="header_menu_link">Formula</a></li>
+            <li><a href="shop.html" class="header_menu_link">About us</a></li>
           </ul>
         </div>
       </div>
     </div>
-  </header>
-
+  </header> -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="../mainpage/main.html"><img src="images\logotip.png" alt="logo" width="80" height="80"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../mainpage/main.html">Main</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="shop.html"><strong>Shop</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../howcoook/project.html">Formula</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../aboutus/aboutus.html">About us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
   <div class="container">
     <div class="section">
       <div class="title_section">
-        <h1>Наши пирожки:</h1>
+        <h1 class = "main-title">Наши пирожки:</h1>
       </div>
       <div class="product">
-        <div class="product_left">
+        <div class="product_left" data-aos="fade-right">
           <div class="name">
             с капустой
           </div>
           <div class="description">
-            Мука пшеничная в/с, дрожжи, соль, сахар, яйцо, вода, маргарин.<br>
-            Начинка: капуста тушеная с луком, соль, перец черный.
+            <dfn>Мука пшеничная в/с, дрожжи, соль, сахар, яйцо, вода, маргарин.<br>
+              Начинка: капуста тушеная с луком, соль, перец черный.</dfn>
+
           </div>
           <div>
             <a href="https://wa.me/77027760003?text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D0%BF%D0%B8%D1%80%D0%BE%D0%B6%D0%BA%D0%B8%20%D1%81%20%D0%BA%D0%B0%D0%BF%D1%83%D1%81%D1%82%D0%BE%D0%B9."
               class="button">Заказать пирожки с капустой</a>
           </div>
         </div>
-        <div class="product_right">
+        <div class="product_right" data-aos="fade-left" data-aos-delay="400">
           <img src="images\product_1.png">
         </div>
       </div>
       <div class="product">
         <div class="product_right">
-          <img src="images\product_2.png">
+          <img src="images\product_2.png" data-aos="fade-right">
         </div>
-        <div class="product_left">
+        <div class="product_left" data-aos="fade-left">
           <div class="name">
             с картошкой
           </div>
           <div class="description">
-            Состав: Мука пшеничная в/с, соль, сахар, дрожжи, масло растительное.<br>
-            Начинка: картофель, лук репчатый, масло растительное,
-            укроп свежий, соль, перец
+            <dfn>
+              Состав: Мука пшеничная в/с, соль, сахар, дрожжи, масло рас<wbr>тительное.<br>
+              Начинка: картофель, лук репчатый, масло растительное,
+              укроп свежий, соль, перец
+            </dfn>
           </div>
           <div>
             <a href="https://wa.me/77027760003?text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D0%BF%D0%B8%D1%80%D0%BE%D0%B6%D0%BA%D0%B8%20%D1%81%20%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%88%D0%BA%D0%BE%D0%B9."
@@ -71,45 +101,134 @@
         </div>
       </div>
       <div class="product">
-        <div class="product_left">
+        <div class="product_left" data-aos="fade-right">
           <div class="name">
             с печенью
           </div>
           <div class="description">
-            Состав: Мука пшеничная в/с, маргарин, яйцо, молоко, дрожжи, сахар, соль,<br>
-            Начинка: паштет Домашний (печень говяжья, свинина, морковь, лук, специи)
+            <dfn>
+              Состав: Мука пшеничная в/с, маргарин, яйцо, молоко, дрожжи, сахар, соль,<br>
+              Начинка: паштет Домашний (печень говяжья, свинина, морковь, лук, специи)
+            </dfn>
           </div>
           <div>
             <a href="https://wa.me/77027760003?text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D1%8C%20%D0%BF%D0%B8%D1%80%D0%BE%D0%B6%D0%BA%D0%B8%20%D1%81%20%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D1%8C%D1%8E."
               class="button">Заказать пирожки с печенью</a>
           </div>
         </div>
-        <div class="product_right">
+        <div class="product_right" data-aos="fade-left">
           <img src="images\product_3.png">
         </div>
       </div>
     </div>
   </div>
 
-  <footer>
+
+
+  <div class="formbox" data-aos="fade-up">
+    <h3>Заказ оптовой партии</h3>
+    <form action="/action_page.php">
+      <label for="fname">Имя</label>
+      <input type="text" id="fname" name="firstname" placeholder="Ваше имя..">
+
+      <label for="lname">Фамилия</label>
+      <input type="text" id="lname" name="lastname" placeholder="Ваша фамилия..">
+
+      <label for="email">Почта</label>
+      <input type="text" id="email" name="email" placeholder="Ваша почта..">
+
+      <label for="ptype">Начинка</label>
+      <select id="ptype" name="ptype">
+        <option value="cabbage">с капустой</option>
+        <option value="potato">с картошкой</option>
+        <option value="liver">с печенью</option>
+      </select>
+
+      <label for="subject">Коментарий к заказу</label>
+      <textarea id="subject" name="subject" placeholder="Ваш коментарий.." style="height:200px"></textarea>
+
+      <input type="submit" value="Заказать">
+    </form>
+  </div>
+  <!-- <footer>
     <div class="container">
       <div class="footer_inside">
 
         <div class="footer_item">
           <div class="italic">
-            "Путь к сердцу человека лежит через пирожки"
-          </div>
-          <div class="copyright">
-            © Ерасыл
+            <blockquote>"Путь к сердцу человека лежит через пирожки"<div class="copyright">
+                © Ерасыл
+              </div>
+            </blockquote>
           </div>
         </div>
       </div>
 
       <div class="madeby">
-        made by "Boilerplate"
+        made by "Boilerplate" <abbr>KZ</abbr>
       </div>
     </div>
-  </footer>
-</body>
+  </footer> -->
+  <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class=" container music-block">  
+  <audio src="music1.mp3" controls></audio>
+</div>
+<div class="container-fluid my-5 footer" data-aos="fade-down">
+  <footer class="bg-light text-center">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Успей заказать наши пирожки по выгодной цене</strong>
+            </p>
+          </div>
+          <!--Grid column-->
 
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="form5Example2" class="form-control" />
+              <label class="form-label" for="form5Example2">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary mb-4">
+              Заказать
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    <blockquote>"Путь к сердцу человека лежит через пирожки"<div class="copyright">
+      © Ерасыл
+    </div>
+  </blockquote>
+  </div>
+  <!-- Copyright -->
+</footer>
+</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="shop.js"></script>
+</body>
 </html>
